@@ -1,0 +1,96 @@
+:root {
+	--color1: #534764;
+	--color2: #5f5270;
+	--red1: #d74d63;
+	--red1hover: #ff2525;
+
+	--dark1: #4f4f4f;
+	--dark2: #6b6b6b;
+	--dark3: #413328;
+	--dark4: #514240;
+
+	--light1: #f4f4f4;
+
+	--hover1: #754ab3;
+	--hover2: #c4a2fc;
+
+	--colorVK: #597da3;
+
+	--shadow1: 0px 5px 10px rgba(0, 0, 0, 0.08);
+	--shadow1hover: 0px 10px 10px rgba(196, 187, 234, 0.45);
+
+	--shadow2: 0px 2px 5px rgba(0, 0, 0, 0.08);
+	--shadow2hover: 0px 2px 5px rgba(196, 187, 234, 0.45);
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
+
+.red {
+	color: var(--red1);
+}
+
+.stop {
+	overflow: hidden;
+}
+
+.hide_600 {
+	display: block;
+	display: inline-block;
+}
+
+.show_600 {
+	display: none;
+}
+
+.mbHide {
+	.at-max(480px,{
+		display: none;
+	});
+}
+
+.visible {
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.xScroll::-webkit-scrollbar-track {
+	border-radius: 8px;
+	background-color: var(--color1);
+}
+
+.xScroll::-webkit-scrollbar {
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: var(--color1);
+}
+
+.xScroll::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	background-color: var(--color1);
+}
+
+.xScroll2::-webkit-scrollbar-track {
+	border-radius: 8px;
+	background-color: transparent;
+}
+
+.xScroll2::-webkit-scrollbar {
+	width: 0.25rem;
+	height: 0.25rem;
+	/* background-color: var(--color1); */
+	background-color: transparent;
+}
+
+.xScroll2::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	/* background-color: #f6e5e4; */
+	background: rgba(173, 136, 184, 0.35);
+}
